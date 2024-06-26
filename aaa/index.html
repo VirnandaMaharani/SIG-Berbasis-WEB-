@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas Halaman Web</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+h1 {text-align: center;}
+p {text-align: center;}
+
+body {
+  font-family: Times New Roman, sans-serif,alenia;
+}
+
+/* Style the header */
+header {
+  background-color:rgb(197, 227, 233);
+  padding: 30px;
+  text-align: center;
+  font-size: 40px;
+  color:white;
+}
+.image{
+  margin: auto;
+  background-image: url(pizza.jpeg);
+  text-align: center;
+  background-position: center;
+  height: 320px;
+  background-size: cover;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: auto; 
+  background: #5F9EA0;
+  padding: 3px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 40px;
+  width: 100%;
+  height: 560px; 
+  background-color: 	 rgb(197, 227, 233);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+table.tabel {
+  width: 70%;
+  max-width: 100%; 
+  margin: auto; 
+  border-collapse: collapse;
+}
+img {
+  display: block;
+  margin: auto;
+}
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the footer */
+footer {
+  margin-top: auto;
+  color: black;
+  background-color: #5F9EA0; 
+  padding: 8px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 500px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header class="image">
+  <h2>PIZZA HUT</h2>
+  <h6> Beragam Paket Untuk Berbagi Kebersamaan</h6>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	<tr>
+	<td>
+      <h2>PETA PERSEBARAN PIZZA HUT BESERTA KOMPETITOR DAERAH ISTIMEWA YOGYAKARTA</h2>
+	</td>
+	
+    <ul>
+  </nav>
+
+  <article>
+  
+  <td>
+    <img src="sig web.png" width="700" height="500">
+  </article>
+
+</section>
+
+<footer>
+  <p>Virnanda Nur Mahanani</p>
+</footer>
+
+</body>
+</html>
